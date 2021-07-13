@@ -19,7 +19,7 @@ mongoose.connect(config.DB_URI, {
 
 const app = express()
 
-app.use('/api/v1/prroducts', productRoutes)
+app.use('/api/v1/products', productRoutes)
 
 
 
